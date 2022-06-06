@@ -1,0 +1,31 @@
+
+section{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+table{
+    font-size: 20px;
+    width:80%;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: uppercase;
+  
+}
+tr:hover {
+    background-color: #04AA6D30;
+}
+th,td{
+    border-bottom: 1px solid #ddd ;
+}
+@media only screen and (max-width: 600px) {
+    .hiddable{
+        display:none;
+    }
+}

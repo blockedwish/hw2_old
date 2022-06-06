@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(20, 220, 87, 0.215);
+}
+div.options{
+    gap:10px;
+}
+@media only screen and (max-width: 600px) {
+    #image_bacheca, #image_control_panel{
+        display: inline-block;
+      
+    }
+
+}
